@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp3
+namespace ui092
 {
     public partial class Form1 : Form
     {
@@ -17,12 +17,15 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            string mypath = @"D:\_\YXSample\10";
+            string myPath = @"C:\C#2019"; //画像のフォルダーを指定
 
-            string[] imgFile = System.IO.Directory.GetFiles(mypath, "*.jpg");
+            //指定したフォルダー内のjpgファイルを取得
+            string[] imgFile = System.IO.Directory.GetFiles(myPath, "*.jpg");
 
+            //imgFileに格納された画像ファイルをImageListに追加し、
+            //listViewに表示する
             for (int i = 0; i < imgFile.Length; i++)
             {
                 Image myImg = Bitmap.FromFile(imgFile[i]);

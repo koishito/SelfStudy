@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp3
+﻿namespace ui092
 {
     partial class Form1
     {
@@ -30,41 +30,43 @@
         {
             this.components = new System.ComponentModel.Container();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // listView1
             // 
-            this.listView1.HideSelection = false;
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.LargeImageList = this.imageList1;
-            this.listView1.Location = new System.Drawing.Point(29, 116);
+            this.listView1.Location = new System.Drawing.Point(12, 57);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(466, 301);
+            this.listView1.Size = new System.Drawing.Size(382, 188);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 26);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "JPGファイル一覧表示";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // imageList1
             // 
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(50, 50);
+            this.imageList1.ImageSize = new System.Drawing.Size(120, 90);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(29, 61);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "JPEGファイル一覧表示";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(406, 269);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Name = "Form1";
