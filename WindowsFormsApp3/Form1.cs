@@ -32,5 +32,18 @@ namespace WindowsFormsApp3
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = richTextBox1.UndoActionName;
+            DialogResult ans;
+            ans = MessageBox.Show("continue?", "confirmation",
+                        MessageBoxButtons.YesNo);
+            if (ans == DialogResult.Yes)
+            {
+                richTextBox1.Undo();
+                label1.Text = "";
+            }
+        }
     }
 }
