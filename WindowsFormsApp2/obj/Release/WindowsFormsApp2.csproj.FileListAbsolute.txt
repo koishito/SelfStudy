@@ -1,0 +1,10 @@
+C:\Users\phachute\source\repos\WindowsFormsApp2\bin\Release\WindowsFormsApp2.exe.config
+C:\Users\phachute\source\repos\WindowsFormsApp2\bin\Release\WindowsFormsApp2.exe
+C:\Users\phachute\source\repos\WindowsFormsApp2\bin\Release\WindowsFormsApp2.pdb
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.exe
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.pdb
+C:\Users\phachute\source\repos\WindowsFormsApp2\obj\Release\WindowsFormsApp2.Form1.resources

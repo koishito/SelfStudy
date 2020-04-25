@@ -1,0 +1,12 @@
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.exe
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.deps.json
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.runtimeconfig.json
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.runtimeconfig.dev.json
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.dll
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\bin\Debug\netcoreapp3.1\SetNumLock.pdb
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.vbprojAssemblyReference.cache
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.AssemblyInfoInputs.cache
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.AssemblyInfo.vb
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.dll
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.pdb
+C:\Users\phachute\source\repos\SetNumLock\SetNumLock\obj\Debug\netcoreapp3.1\SetNumLock.vbproj.ResolveComReference.cache
