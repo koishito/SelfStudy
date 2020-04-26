@@ -35,6 +35,7 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -69,7 +70,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(370, 214);
             this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = "１２３４５６７８９";
             // 
             // button2
             // 
@@ -89,11 +90,22 @@
             this.label1.Size = new System.Drawing.Size(130, 33);
             this.label1.TabIndex = 5;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(317, 304);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(82, 34);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "太字";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox1);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
     }
 }
 

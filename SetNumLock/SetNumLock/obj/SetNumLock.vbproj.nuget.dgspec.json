@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phachute\\source\\repos\\SetNumLock\\SetNumLock\\SetNumLock.vbproj": {}
+    "C:\\Users\\phachute\\source\\repos\\koishito\\SelfStudy\\SetNumLock\\SetNumLock\\SetNumLock.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\phachute\\source\\repos\\SetNumLock\\SetNumLock\\SetNumLock.vbproj": {
+    "C:\\Users\\phachute\\source\\repos\\koishito\\SelfStudy\\SetNumLock\\SetNumLock\\SetNumLock.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phachute\\source\\repos\\SetNumLock\\SetNumLock\\SetNumLock.vbproj",
+        "projectUniqueName": "C:\\Users\\phachute\\source\\repos\\koishito\\SelfStudy\\SetNumLock\\SetNumLock\\SetNumLock.vbproj",
         "projectName": "SetNumLock",
-        "projectPath": "C:\\Users\\phachute\\source\\repos\\SetNumLock\\SetNumLock\\SetNumLock.vbproj",
+        "projectPath": "C:\\Users\\phachute\\source\\repos\\koishito\\SelfStudy\\SetNumLock\\SetNumLock\\SetNumLock.vbproj",
         "packagesPath": "C:\\Users\\phachute\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phachute\\source\\repos\\SetNumLock\\SetNumLock\\obj\\",
+        "outputPath": "C:\\Users\\phachute\\source\\repos\\koishito\\SelfStudy\\SetNumLock\\SetNumLock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phachute\\AppData\\Roaming\\NuGet\\NuGet.Config",
