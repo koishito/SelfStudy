@@ -48,14 +48,18 @@ namespace WindowsFormsApp3
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int selEnd = richTextBox1.SelectionStart + richTextBox1.SelectionLength;
-            for (int i = richTextBox1.SelectionStart; i < selEnd; i++)
+            int selst = richTextBox1.SelectionStart;
+            int sellg = richTextBox1.SelectionLength;
+            for (int i = richTextBox1.SelectionStart; i < selst + sellg; i++)
             {
                 richTextBox1.SelectionStart = i;
                 richTextBox1.SelectionLength = 1;
                 Font myfont = richTextBox1.SelectionFont;
                 richTextBox1.SelectionFont = new Font(myfont.FontFamily, myfont.Size, (myfont.Bold) ? FontStyle.Regular : FontStyle.Bold);
             }
+            richTextBox1.SelectionStart = selst;
+            richTextBox1.SelectionLength = sellg;
+            richTextBox1.Focus();
         }
     }
 }
