@@ -64,7 +64,12 @@ namespace WindowsFormsApp3
 
         private void button4_Click(object sender, EventArgs e)
         {
-            richTextBox1.LoadFile(label2.Text,RichTextBoxStreamType.PlainText);
+            richTextBox1.LoadFile(label2.Text,RichTextBoxStreamType.RichText);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SaveFile(label2.Text, RichTextBoxStreamType.RichText);
         }
     }
 }
