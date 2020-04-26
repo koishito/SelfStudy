@@ -71,5 +71,20 @@ namespace WindowsFormsApp3
         {
             richTextBox1.SaveFile(label2.Text, RichTextBoxStreamType.RichText);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            numericUpDown1.Minimum = 8;
+            numericUpDown1.Maximum = 30;
+            numericUpDown1.Value = (decimal)label2.Font.Size;
+            numericUpDown1.Increment = 1;
+            
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            Font myfont = label2.Font;
+            label2.Font = new Font(myfont.FontFamily, (int) numericUpDown1.Value);
+        }
     }
 }
