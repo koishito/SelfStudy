@@ -61,5 +61,10 @@ namespace WindowsFormsApp3
             richTextBox1.SelectionLength = sellg;
             richTextBox1.Focus();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            richTextBox1.LoadFile(label2.Text,RichTextBoxStreamType.PlainText);
+        }
     }
 }
