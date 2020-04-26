@@ -40,7 +40,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // listView1
@@ -111,15 +113,15 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Location = new System.Drawing.Point(33, 356);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 32);
+            this.label2.Size = new System.Drawing.Size(263, 32);
             this.label2.TabIndex = 7;
             this.label2.Text = "C:\\+\\test20200426.rtf";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(198, 356);
+            this.button4.Location = new System.Drawing.Point(302, 356);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(80, 33);
+            this.button4.Size = new System.Drawing.Size(45, 33);
             this.button4.TabIndex = 8;
             this.button4.Text = "load";
             this.button4.UseVisualStyleBackColor = true;
@@ -127,9 +129,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(294, 356);
+            this.button5.Location = new System.Drawing.Point(353, 356);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 33);
+            this.button5.Size = new System.Drawing.Size(46, 33);
             this.button5.TabIndex = 9;
             this.button5.Text = "save";
             this.button5.UseVisualStyleBackColor = true;
@@ -143,11 +145,22 @@
             this.numericUpDown1.TabIndex = 10;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(139, 12);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackBar1.Size = new System.Drawing.Size(56, 59);
+            this.trackBar1.TabIndex = 11;
+            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -162,7 +175,9 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -179,6 +194,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }
 

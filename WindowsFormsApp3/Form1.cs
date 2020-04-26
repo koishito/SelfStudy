@@ -76,15 +76,30 @@ namespace WindowsFormsApp3
         {
             numericUpDown1.Minimum = 8;
             numericUpDown1.Maximum = 30;
-            numericUpDown1.Value = (decimal)label2.Font.Size;
+            numericUpDown1.Value = (int)label2.Font.Size;
             numericUpDown1.Increment = 1;
-            
+
+            trackBar1.Minimum = 8;
+            trackBar1.Maximum = 30;
+            trackBar1.Value = (int)label2.Font.Size;
+            trackBar1.TickFrequency = 1;
+            trackBar1.SmallChange = 1;
+            trackBar1.LargeChange = 3;
+
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             Font myfont = label2.Font;
             label2.Font = new Font(myfont.FontFamily, (int) numericUpDown1.Value);
+            trackBar1.Value = (int)label2.Font.Size;
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            Font myfont = label2.Font;
+            label2.Font = new Font(myfont.FontFamily, trackBar1.Value);
+            numericUpDown1.Value = (int)label2.Font.Size;
         }
     }
 }
