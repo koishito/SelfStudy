@@ -59,6 +59,7 @@
             this.検索SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.バージョン情報AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windowsWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,8 +70,10 @@
             this.ファイルFToolStripMenuItem,
             this.編集EToolStripMenuItem,
             this.ツールTToolStripMenuItem,
+            this.windowsWToolStripMenuItem,
             this.ヘルプHToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.windowsWToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 1;
@@ -290,6 +293,12 @@
             this.バージョン情報AToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             this.バージョン情報AToolStripMenuItem.Text = "バージョン情報(&A)...";
             // 
+            // windowsWToolStripMenuItem
+            // 
+            this.windowsWToolStripMenuItem.Name = "windowsWToolStripMenuItem";
+            this.windowsWToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.windowsWToolStripMenuItem.Text = "Windows(&W)";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -339,5 +348,6 @@
         private System.Windows.Forms.ToolStripMenuItem 検索SToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem バージョン情報AToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windowsWToolStripMenuItem;
     }
 }

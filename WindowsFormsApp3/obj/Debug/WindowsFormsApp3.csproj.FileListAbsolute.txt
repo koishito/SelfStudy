@@ -9,3 +9,5 @@ C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\Win
 C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
 C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form2.resources
+C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form3.resources
+C:\Users\phachute\Source\Repos\koishito\SelfStudy\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.MDIParent1.resources
